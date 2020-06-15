@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+
+<title><%= title %> </title>
+  <head>
+  
+  </head>
+  <body>
+    <h1>Star Wars categories </h1>
+    <div class="w3-card-4">
+    <img src="/images/samples.jpg" style="width:30em; height:30em;" class="responsive" />
+    </div>
+
+    <h3>Star Wars categories </h1>
+    <%  { %>
+      <h4><%= characters[0].films %></h4>
+      <h4><%= characters[0].species %></h4>
+      <h4><%= characters[0].vehicles %></h4>
+      <h4><%= characters[0].starships %></h4>
+    
+    <% } %>
+
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+
+  </body>
+</html>
