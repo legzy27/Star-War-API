@@ -22,11 +22,11 @@ exports.home = function(req,res) {
     res.render('characters', {
       title : "Star Wars Character",
       characters: characters,
-  
-})
-     
+    
+    })
 
   }
+
   
  // Categories route
   exports.categories = function (req, res) {

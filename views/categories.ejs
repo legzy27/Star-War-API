@@ -13,13 +13,13 @@
     </div>
 
     <h3>Star Wars categories </h1>
-    <%  { %>
-      <h4><%= characters[0].films %></h4>
-      <h4><%= characters[0].species %></h4>
-      <h4><%= characters[0].vehicles %></h4>
-      <h4><%= characters[0].starships %></h4>
+    <%  characters.forEach(function(characters) { %>
+      <h4><%= characters.films %></h4>
+      <h4><%= characters.species %></h4>
+      <h4><%= characters.vehicles %></h4>
+      <h4><%= characters.starships %></h4>
     
-    <% } %>
+    <% }) %>
 
     <link href="/css/style.css" rel="stylesheet" type="text/css">
 
